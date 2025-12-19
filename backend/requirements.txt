@@ -1,0 +1,35 @@
+# FastAPI
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# LangChain - Latest December 2025 versions
+langchain>=0.3.16
+langchain-community>=0.3.15
+langchain-core>=0.3.28
+langchain-google-genai>=2.0.4
+langchain-cohere>=0.5.0
+langchain-pinecone>=0.2.0
+langchain-text-splitters>=0.3.4
+
+# Document Loading
+pypdf>=4.3.1
+unstructured>=0.16.0
+
+# Vector DB - Pinecone with hybrid search support
+pinecone>=5.4.1
+pinecone-text>=0.9.1
+
+# AI Services - Latest Cohere v4.0 and embeddings
+google-generativeai>=0.8.3
+cohere>=5.12.0
+
+# Utilities
+python-dotenv>=1.0.1
+python-multipart>=0.0.12
+
+# Testing
+pytest>=8.3.4
+pytest-asyncio>=0.24.0
+httpx>=0.28.1
